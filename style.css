@@ -1,0 +1,45 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: flex;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+
+.right-column {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+.center-content{
+	align-items: center;
+	justify-content: center;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.gold {
+	background-color: #8a2be2;
+	display: block;
+	width: 100%;
+	height: calc(100vh/3)
+}
+.purple {
+	background-color: #00ff7f;
+	display: block;
+	width: 100%;
+	height: calc(100vh/3)
+}
+
+.slate {
+	background-color: #00ff7f;
+	display:block;
+	height: calc(100vh/3)
+}
+
+.josh {
+	background-color: #55FF00;
+	width: 50%
+}
